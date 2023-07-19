@@ -10,17 +10,17 @@ header{
     display: flex;
     justify-content: space-between;
     align-items:center ;
-    background-color: aquamarine;
+    background-color: #5FA7EE;
     margin: 0px;
     padding: 0px;
 }
 #logo{
-    width:3%;
+    width:40px;
     padding: 10px;
 
 }
 #logo img{
-    width: 100%;
+    width: 40px;
 }
 #menu-hr{
     display: flex;
@@ -34,13 +34,36 @@ header{
     font-size: 20px;
 }
 #menu-hr a:hover{
-    color: blue;
+    color: #0661B6;
 }
 #baner{
     margin-top: 0px; padding: 0%;
-    background-color: aquamarine;
-    height: 550px;
+    background-color: #5FA7EE;
+    height: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
 }
 h1{
     margin: 0px;
+}
+#conter{
+    
+    height: 200px;
+    margin-top: 300px;
+    
+}
+#conter>button{
+    padding: 10px;
+    background-color: #0661B6;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#conter>button:hover{
+    background-color: aqua;
+}
+#backgound>img{
+   
+    
 }
