@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    background-color: aquamarine;
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    width:3%;
+    padding: 10px;
+
+}
+#logo img{
+    width: 100%;
+}
+#menu-hr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#menu-hr a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+#menu-hr a:hover{
+    color: blue;
+}
+#baner{
+    margin-top: 0px; padding: 0%;
+    background-color: aquamarine;
+    height: 550px;
+}
+h1{
+    margin: 0px;
+}
